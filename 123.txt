@@ -1,0 +1,58 @@
+1.What is GIT?
+2.What is GIT HUB?
+3.Is GIT related to GIT HUB?
+4.A Simple workflow?
+
+GIT - VCS-Version control system
+    - To track changes in files/folders
+    - To collaborate in teams
+    - GIT is Free & Open Source.
+
+We have two types of version control system.
+1)Centralized version control system.
+2)Distributed version control system.
+
+GIT == Distributed version control system.
+==============================================
+
+GIT HUB -Web site to upload your repository online.
+
+1) It provides backup.
+2)It provides visual interface to your repository
+3)It makes collaboration easier.
+
+GIT != GIT HUB
+
+To check GIT is installed in your system open cmd
+type $~ git --version
+git version 2.21.0
+
+If not installed then 'command not found' error comes.
+Then Download and Install the GIT
+https://git-scm.com/download/win
+
+Signup and create a account on GitHub
+https://github.com/ -->Signup
+
+Add your GitHub email and user name to GIT
+
+git config --global user.email "kishoreadm1@gmail.com"
+git config --global user.name "kishore-3"
+kishore-3/k!sh@re-31
+
+Add File/Folders to git-tracking
+
+Commands:- terminal -goto the location of the folder/project
+1)$~git init
+Initialized empty Git repository in C:/Users/KESAVA/.git
+
+After that if you want to explore the folder in MAC type
+~$ defaults write com.apple.finder AppleShowAllFiles YES
+
+Here if we give NO -then all files goes hidden
+
+2)$~git status
+  touch test1.txt
+3)~$ git add
+4)~$git commit -m "type own message"
+5)git status
